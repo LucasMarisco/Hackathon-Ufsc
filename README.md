@@ -37,6 +37,17 @@ Analisar a versão PHP (`bad-codebase/`) é **bônus**, não obrigatório.
 
 ---
 
+## 📦 Como entregar
+
+1. Faça **fork** deste repositório para a sua conta GitHub pessoal.
+2. Desenvolva sua solução no fork (pipeline + relatório dentro de uma pasta com o nome do seu time, ex: `entregas/nome-do-time/`).
+3. Abra um **Pull Request** deste repositório com o título: `[ENTREGA] Nome do Time`.
+4. O Pull Request será mesclado pela organização — sua entrega ficará preservada permanentemente neste repositório.
+
+> Qualquer conta GitHub pode fazer fork de um repositório público — não é necessário ter permissão especial.
+
+---
+
 ## Como rodar o código-alvo (opcional, para entender o sistema)
 
 **Python:**
@@ -57,8 +68,9 @@ php artisan serve
 
 ## Regras importantes
 
-- O código-alvo é **propositalmente ruim**. Não o "conserte" — **analise-o**.
+- O código-alvo é **propositalmente ruim**. Não o \"conserte\" — **analise-o**.
 - Seu diferencial está em **priorizar bem** contra o contexto de negócio, não em achar o maior número de problemas.
 - Assuma que ferramentas externas (bandit, radon, pylint) **podem não estar instaladas** no ambiente de avaliação — seu pipeline deve ter um caminho que funcione mesmo sem elas.
 
 Boa sorte! 🚀
+
